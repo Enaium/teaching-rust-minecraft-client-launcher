@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+model = { path = "../model" }
+parse = { path = "../parse" }
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+file-hashing = { version = "0.1" }
+sha1 = { version = "0.10" }
