@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+model = { path = "../model" }
+parse = { path = "../parse" }
+download = { path = "../download" }
+clap = { version = "4.5" }
+zip = { version = "2.1" }
